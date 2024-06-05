@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:490px) {
+    body{
+        .logo{
+            display: flex;
+            position: absolute;
+            left: -400px;
+        }
+
+        .top{
+            width: 475px;
+            display: flex;
+        }
+
+        .seart-bar{
+            width: 100px;
+            position: absolute;
+            right: 50px;
+        }
+        .tap{
+            width: 100%;
+            display: flex;
+            margin: 1px;
+        }
+
+        .container{
+            position: absolute;
+            top: 10px;
+            left: 40px;
+
+            width: 490px;
+
+        }
+
+        .container-tap-1{
+            display: grid;
+            width: 490px;
+        }
+
+        .container-tap-2{
+            display: grid;
+            margin-top: 1600px;
+            width: 490px;
+        }
+        .container-tap-3{
+            display: grid;
+            margin-top: 1600px;
+            width: 490px;
+        }
+    }
+}
+
+.top{
+    width: 1510px;
+    height: 60px;
+
+    background-color: black;
+
+    display: flex;
+    border-bottom: 1px solid;
+    border-color: white;
+    background-position: center;
+
+}
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+
+}
+
+.menu i {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+
+    transform: scale(2);
+
+    color: orangered;
+}
+
+.seart{
+    display: flex;
+    transform: scale(1.1);
+
+    top: 6px;
+    right: 20px;
+    position: absolute;
+
+   
+    width: 200px;
+    height:60px;
+}
+
+.seart-bar{
+    display: flex;
+    position: absolute;
+    padding: 5px;
+    top: 15px;
+
+    align-content: center;
+    width: 150px;
+    height: 50%;
+
+    background-color: rgb(240, 248, 255);
+
+    border-radius: 50px;
+}
+
+.seart-bar i {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.user{
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+
+    position: absolute;
+    right: 1px;
+}
+
+.user-bar{
+    display: flex;
+    position: absolute;
+    top: 18px;
+
+    width: 35px;
+    height: 35px;
+
+    background-color: rgb(240, 248, 255);
+    border-radius: 50px;
+}
+
+.user-bar i {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    transform: scale(1.58);
+
+}
+
+.logo-bar{
+    color: aliceblue;
+    
+    position: absolute;
+    left: 468px;
+    top: 10px;
+
+    width: 50px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-hub{
+    position: absolute;
+    left: 565px;
+    top: 8px;
+    align-content: center;
+
+    width: 70px;
+    height: 40px;
+
+    border-radius: 2px;
+
+    background-color: orangered;
+}
+
+.logo-hub h1 {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+.sre h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: -95px;
+    left: 10px;
+
+    transform: scale(0.9);
+
+}
+
+.logo{
+    position: absolute;
+    top: 6px;
+    left: 100px;
+}
+
+body{
+    background-color:black;
+}
+
+.tap{
+    
+    width: 1510px;
+    height: 50px;
+
+    display: flex;
+    background-position: center;
+    
+}
+
+#tap{
+    border: solid black;
+    background-color: orangered;
+    text-align: center;
+    padding: 10px;
+    width: 620px;
+    height: 50px;
+    
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ex{
+    position: absolute;
+    left: 5px;
+
+    width: 150px;
+    height: 50px;
+
+    color: rgb(255, 255, 255);
+
+}
+
+.ex-bar{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+    padding: 8px;
+}
+
+
+.container-tap-1{
+    
+    display:flex;
+    position: absolute;
+    top: 170px;
+    margin: 25px;
+
+    height: 500px;
+    width: 1470px;
+
+}
+
+.container-tap-3{
+    display: flex;
+    position: absolute;
+    top: 700px;
+    margin: 25px;
+    left: 0px;
+
+
+
+    height: 500px;
+    width: 1470px;
+}
+
+.container-tap-3 > .video{
+    border: 3px solid gold;
+}
+
+.container-tap-1 .video{
+    border: 3px solid palevioletred;
+}
+
+.video{
+    
+    display: flex;
+    margin: 10px;
+
+    width: 280px;
+    height:260px;
+
+    border: 2px solid rgb(255, 27, 27);
+    border-radius: 10px;
+
+    overflow: hidden;
+    background: none;
+    background-color: none;
+    animation: bordure 2s cubic-bezier(.08,.3,.41,1.05)
+    1s forwards;
+    border: 3px solid #fff;
+    opacity: 0;
+    box-shadow: 0px 0px 50px 33px rgba(0, 255, 255, 0.2);
+
+}
+
+
+@keyframes bordure {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {
+        height: 0px;
+        width: 280px;
+    }
+    100% {
+        width: 280px;
+        height: 400px;
+        opacity: 1;
+    }
+}
+.sre a{
+
+    text-decoration: none;
+    color: aliceblue;
+    
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.sre{
+    
+    display: flex;
+    width: 260px;
+    height: 250px;
+
+    position: absolute;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30PX;
+    
+}
+
+img{
+    align-items: center;
+    margin: 10px;
+
+    width: 240px;;
+    border-radius: 20PX;
+
+}
+
+.posit a{
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-decoration: none;
+    color: white;
+}
+.sre p a{
+    position: absolute;
+    bottom: -60px;
+    margin: 1px;
+}
+
+.sre h4{
+    color: #fff;
+    position: absolute;
+    bottom: -110px;
+    left: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
